@@ -2,10 +2,9 @@
 #include <cmath>
 
 double cathet1, cathet2;	//Designation of global variables
-Calculation of the triangle perimeter
 //ACalculation of the triangle perimeter
 //Return 0 If no errors
-  int
+int
 CalculatingPerimeter ()
 {
   double Perimeter;
