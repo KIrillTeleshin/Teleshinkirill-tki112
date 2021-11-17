@@ -1,90 +1,90 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/microsoftoffice,latex
-# Edit at https://www.toptal.com/developers/gitignore?templates=microsoftoffice,latex
+# Создано https://www.toptal.com/developers/gitignore/api/microsoftoffice,латекс
+# Редактировать по адресу https://www.toptal.com/developers/gitignore?templates=microsoftoffice,латекс
 
-### LaTeX ###
-## Core latex/pdflatex auxiliary files:
+### Латекс ###
+## Основные вспомогательные файлы latex/pdflatex:
 *.aux
 *.lof
-*.log
-*.lot
+*.журнал
+*.лот
 *.fls
-*.out
+*.выход
 *.toc
 *.fmt
 *.fot
 *.cb
 *.cb2
-.*.lb
+.*.фунт
 
-## Intermediate documents:
+## Промежуточные документы:
 *.dvi
 *.xdv
-*-converted-to.*
-# these rules might exclude image files for figures etc.
+*-преобразовано-в.*
+# эти правила могут исключать файлы изображений для рисунков и т.д.
 # *.ps
 # *.eps
 # *.pdf
 
-## Generated if empty string is given at "Please type another file name for output:"
+## Генерируется, если пустая строка указана в "Пожалуйста, введите другое имя файла для вывода:"
 .pdf
 
-## Bibliography auxiliary files (bibtex/biblatex/biber):
-*.bbl
+## Вспомогательные файлы библиографии (bibtex/biblatex/biber):
+*.баррель
 *.bcf
 *.blg
 *-blx.aux
-*-blx.bib
+*-blx.нагрудник
 *.run.xml
 
-## Build tool auxiliary files:
+## Вспомогательные файлы инструмента сборки:
 *.fdb_latexmk
 *.synctex
-*.synctex(busy)
+*.synctex(занято)
 *.synctex.gz
-*.synctex.gz(busy)
+*.synctex.gz(занят)
 *.pdfsync
 
-## Build tool directories for auxiliary files
+## Создание каталогов инструментов для вспомогательных файлов
 # latexrun
-latex.out/
+латекс.выход/
 
-## Auxiliary and intermediate files from other packages:
-# algorithms
+## Вспомогательные и промежуточные файлы из других пакетов:
+# алгоритмы
 *.alg
 *.loa
 
 # achemso
-acs-*.bib
+acs-*.нагрудник
 
 # amsthm
 *.thm
 
-# beamer
+# излучатель
 *.nav
 *.pre
 *.snm
 *.vrb
 
-# changes
+# изменения
 *.soc
 
-# comment
-*.cut
+# комментарий
+*.вырезать
 
 # cprotect
 *.cpt
 
-# elsarticle (documentclass of Elsevier journals)
+# elsarticle (класс документов журналов Elsevier)
 *.spl
 
-# endnotes
-*.ent
+# концевые
+примечания *.ent
 
-# fixme
-*.lox
+# исправь
+меня *.lox
 
-# feynmf/feynmp
+# фейнмф/фейнмп
 *.mf
 *.mp
 *.t[1-9]
@@ -92,8 +92,8 @@ acs-*.bib
 *.tfm
 
 #(r)(e)ledmac/(r)(e)ledpar
-*.end
-*.?end
+*.конец
+*.?конец
 *.[1-9]
 *.[1-9][0-9]
 *.[1-9][0-9][0-9]
@@ -107,23 +107,23 @@ acs-*.bib
 *.eledsec[1-9][0-9][0-9]
 *.eledsec[1-9][0-9][0-9]R
 
-# glossaries
+# глоссарии
 *.acn
 *.acr
 *.glg
-*.glo
+*.гло
 *.gls
 *.glsdefs
 *.lzo
 *.lzs
 
-# uncomment this for glossaries-extra (will ignore makeindex's style files!)
+# раскомментируйте это для глоссариев-дополнительно (будут игнорироваться файлы стилей makeindex!)
 # *.ist
 
 # gnuplottex
 *-gnuplottex-*
 
-# gregoriotex
+# грегориотекс
 *.gaux
 *.glog
 *.gtex
@@ -134,21 +134,21 @@ acs-*.bib
 *.idv
 *.lg
 *.trc
-*.xref
+*.ссылка
 
-# hyperref
+# гиперреф
 *.brf
 
-# knitr
-*-concordance.tex
-# TODO Uncomment the next line if you use knitr and want to ignore its generated tikz files
+# вязание
+*-конкорданс.текс
+# TODO Раскомментируйте следующую строку, если вы используете knitr и хотите игнорировать созданные им файлы tikz
 # *.tikz
 *-tikzDictionary
 
-# listings
+# объявления
 *.lol
 
-# luatexja-ruby
+# luatexja-рубин
 *.ltjruby
 
 # makeidx
@@ -156,7 +156,7 @@ acs-*.bib
 *.ilg
 *.ind
 
-# minitoc
+# миниток
 *.maf
 *.mlf
 *.mlt
@@ -165,58 +165,58 @@ acs-*.bib
 *.slt[0-9]*
 *.stc[0-9]*
 
-# minted
-_minted*
-*.pyg
+# отчеканено
+_ отчеканено*
+*.пигмей
 
-# morewrites
-*.mw
+# больше записей
+*.МВт
 
-# newpax
-*.newpax
+# ньюпакс
+*.ньюпакс
 
-# nomencl
+# номенклатура
 *.nlg
 *.nlo
 *.nls
 
-# pax
-*.pax
+# пакс
+*.чел.
 
 # pdfpcnotes
 *.pdfpc
 
-# sagetex
-*.sagetex.sage
+# сагетекс
+*.сагетекс.мудрец
 *.sagetex.py
 *.sagetex.scmd
 
 # scrwfile
 *.wrt
 
-# sympy
-*.sout
-*.sympy
-sympy-plots-for-*.tex/
+# сочувствую
+*.сочувствую
+*.
+сочувствую-сюжеты-для-*.текс/
 
 # pdfcomment
-*.upa
+*.упа
 *.upb
 
 # pythontex
 *.pytxcode
-pythontex-files-*/
+pythontex-файлы-*/
 
-# tcolorbox
-*.listing
+# цветная коробка
+*.список
 
 # thmtools
 *.loe
 
-# TikZ & PGF
+# TikZ и PGF
 *.dpth
 *.md5
-*.auxlock
+*.вспомогательный замок
 
 # todonotes
 *.tdo
@@ -225,8 +225,8 @@ pythontex-files-*/
 *.hst
 *.ver
 
-# easy-todo
-*.lod
+# простое
+задание *.lod
 
 # xcolor
 *.xcp
@@ -237,33 +237,33 @@ pythontex-files-*/
 # xindy
 *.xdy
 
-# xypic precompiled matrices and outlines
+# xypic предварительно скомпилированные матрицы и контуры
 *.xyc
 *.xyd
 
-# endfloat
-*.ttt
+# плавучий
+конец *.ttt
 *.fff
 
-# Latexian
+# Латексианец
 TSWLatexianTemp*
 
-## Editors:
-# WinEdt
-*.bak
-*.sav
+## Редакторы:
+# Вино
+*.бак
+*.сав
 
 # Texpad
 .texpadtmp
 
-# LyX
-*.lyx~
+# Ликс
+*.ликс~
 
 # Kile
-*.backup
+*.резервное копирование
 
-# gummi
-.*.swp
+# жевательная
+резинка .*.swp
 
 # KBibTeX
 *~[0-9]*
@@ -271,53 +271,53 @@ TSWLatexianTemp*
 # TeXnicCenter
 *.tps
 
-# auto folder when using emacs and auctex
-./auto/*
+# автоматическая папка при использовании emacs и auctex
+./авто/*
 *.el
 
-# expex forward references with \gathertags
-*-tags.tex
+# ожидайте прямых ссылок с \тегами сбора
+*-теги.tex
 
-# standalone packages
+# автономные пакеты
 *.sta
 
-# Makeindex log files
+# Файлы журналов Makeindex
 *.lpz
 
-# xwatermark package
+ пакет # xwatermark
 *.xwm
 
-# REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
-# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
-# Uncomment the next line to have this generated file ignored.
-#*Notes.bib
+# REVTeX помещает сноски в библиографию по умолчанию, если только nofootinbib
+ указана опция#. Сноски хранятся в файле с суффиксом Notes.bib.
+# Раскомментируйте следующую строку, чтобы этот сгенерированный файл был проигнорирован.
+#*Примечания.нагрудник
 
-### LaTeX Patch ###
-# LIPIcs / OASIcs
+### Латексный пластырь ###
+# ЛИПИки / ОАЗИсы
 *.vtc
 
-# glossaries
+# глоссарии
 *.glstex
 
-### MicrosoftOffice ###
+### Microsoft Office ###
 *.tmp
 
-# Word temporary
-~$*.doc*
+# Слово временное
+~$*.док*
 
-# Word Auto Backup File
-Backup of *.doc*
+# Файл автоматической резервной копии Word
+Резервная копия *.doc*
 
-# Excel temporary
+# Excel временный
 ~$*.xls*
 
-# Excel Backup File
+# Файл резервной копии Excel
 *.xlk
 
-# PowerPoint temporary
+# PowerPoint временно
 ~$*.ppt*
 
-# Visio autosave temporary files
-*.~vsd*
+# Автоматическое сохранение временных файлов Visio
+*.~всд*
 
-# End of https://www.toptal.com/developers/gitignore/api/microsoftoffice,latex
+# Конец https://www.toptal.com/developers/gitignore/api/microsoftoffice,латекс
